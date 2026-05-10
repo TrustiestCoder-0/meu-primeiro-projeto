@@ -1,8 +1,8 @@
-nome = input("Digite seu nome: ")
-idade = input("Digite sua idade: ")
+print("Oi, tudo bem?")
+RESPOSTA = input()
+print("Bem vindo ao mundo da programação")                               
+NOME = input("QUAL O SEU NOME PROGRAMADOR?")
 
-with open("dados.txt", "w") as arquivo:
-    arquivo.write(f"Nome: {nome}\n")
-    arquivo.write(f"Idade: {idade}")
+IDADE = input("QUAL A SUA IDADE PROGRAMADOR?") 
 
-print("Dados salvos com sucesso!")
+print('Uau', NOME + '!', 'Você é muito novo para um programador tão bom!')
